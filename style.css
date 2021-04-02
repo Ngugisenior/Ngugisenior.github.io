@@ -1,0 +1,47 @@
+body{
+    background-color: dodgerblue;
+    margin: 0;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.project_list{
+    border-top: chartreuse 4px dashed;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    place-items: center;
+}
+.project_list li{
+    margin-top: 10px;
+    height: 30px;
+    width: 40%;
+    display: flex;
+    justify-content: left;
+    color: chartreuse;
+    justify-content: space-between;
+}
+
+.project_list li span{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+a{
+    width: 90%;
+    display: flex;
+    justify-content: left;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.938);
+}
+a:hover{
+    color: blue;
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: bold;
+    border-bottom: dashed 2px darkorange;
+}
